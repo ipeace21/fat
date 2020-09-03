@@ -77,7 +77,7 @@
 /* 줄마다 P태그로 줄바꾸기를 하는 경우 */
 .div_Round10Box{
   border-radius: 10px;
-  background: orange;
+  background: #ffd480;
   margin: auto;
   margin-top: 20px;
   padding: 10px 30px 10px 30px;
