@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title>진리탐구학습</title>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+  <style>
+      body {
+        background-color: lightblue;
+        font-family: verdana;
+      }
+
+      h1 {
+        color: blue;
+        font-family: verdana;
+      }
+
+      p {
+        font-family: verdana;
+        font-size: 25px;
+      }
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+  <div class="div1">
+    <h1>진리탐구학습 (테스트용)</h1>
+    <p><b>F</b>inding and <b>A</b>pplying <b>T</b>ruth</p>
+
+    <p style="font-size:23px;">다음 글을 읽고 물음에 답을 한 후에, 확인 버튼을 클릭해서 풀이를 참고하세요.</p>
+  </div>
+
+
+
+  <div class="div_Round80Box">에베소서 1:1-2</div>
+
+
+
+  <div class="div_Round10Box" style="height:430px;"> <!-- height = 40 * line + 30 -->
+    <p class="Indent2">하나님의 뜻을 따라</p>
+    <p class="Indent1">그리스도 예수의 사도가 된</p>
+    <p class="Indent0">나 바울은,</p>
+    <p class="Indent2">에베소에 사는,</p>
+    <p class="Indent1">그리스도 예수를 믿는</p>
+    <p class="Indent0">신도들에게</p>
+    <p class="Indent0">이 글을 씁니다.</p>
+    <p class="Indent1">우리 아버지 하나님과 주 예수 그리스도로부터 내리는</p>
+    <p class="Indent0">은혜와 평화가</p>
+    <p class="Indent0">여러분에게 있기를 빕니다.</p>
+  </div>
+
+
+
+  <br><br>
+  <div class="div1">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left">[1] 이 편지를 쓴 바울은 어떤 사람입니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input2" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div1">
+    <button type="button" class="Button1" onclick="check1();">풀이 확인</button>
+  </div>
+  <div class="div1">
+    <div id="solving1" class="div_Round10Box2" style="height: 35px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div1">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left">[2] 이 편지를 받는 사람은 누구입니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input2" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div1">
+    <button type="button" class="Button1" onclick="check2();">풀이 확인</button>
+  </div>
+  <div class="div1">
+    <div id="solving2" class="div_Round10Box2" style="height: 75px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div1">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left">[3] 바울이 편지를 받는 사람들을 위해서 무엇을 구했습니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input2" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div1">
+    <button type="button" class="Button1" onclick="check3();">풀이 확인</button>
+  </div>
+  <div class="div1">
+    <div id="solving3" class="div_Round10Box2" style="height: 75px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+
+  <br><br>
+  <div class="div1">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left">[4] 바울이 예수 그리스도를 믿는 사람들에게 은혜와 평화가 있기를 구한 이유는 무엇일까요?</p>
+      </td></tr>
+      <tr><td>
+          <textarea class="Text1"></textarea>
+      </td>
+      </tr></table>
+  </div>
+  <div class="div1">
+    <button type="button" class="Button1" onclick="check4();">풀이 확인</button>
+  </div>
+  <div class="div1">
+    <div id="solving4" class="div_Round10Box2" style="height: 150px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div1">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left">[5] 바울이 자신을 소개한 것처럼, 나 자신을 어떻게 소개할 수 있는지 써 봅시다.</p>
+      </td></tr>
+      <tr><td>
+          <textarea class="Text1"></textarea>
+      </td>
+      </tr></table>
+  </div>
+  <div class="div1">
+    <button type="button" class="Button1" onclick="check5();">풀이 확인</button>
+  </div>
+  <div class="div1">
+    <div id="solving5" class="div_Round10Box2" style="height: 75px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <div>
+    <br><br>
+  </div>
+
+
+
+
+  <script>
+
+    function check1(){
+      var solve1 = "하나님의 뜻에 따라 그리스도 예수의 사도가 된 사람입니다.";
+      document.getElementById("solving1").innerHTML = solve1;
+    }
+
+    function check2(){
+      var solve2 = "바울이 쓴 이 편지를 받는 사람은 에베소 지역에 있는 사람들입니다. 그들은 그리스도로 오신 예수님을 믿는 사람들이었습니다.";
+      document.getElementById("solving2").innerHTML = solve2;
+    }
+
+    function check3(){
+      var solve3 = "바울은 편지를 받는 에베소의 신자들에게 하나님과 주 예수 그리스도로부터 내리는 은혜와 평화가 있기를 구했습니다.";
+      document.getElementById("solving3").innerHTML = solve3;
+    }
+
+    function check4(){
+      var solve4 = "예수 그리스도를 믿어서 하나님의 자녀가 된 신자들도 여전히 하나님의 은혜가 절대적으로 필요하고, 죄악이 가득한 이 세상에서는 하나님의 은혜 속에서 믿음으로 염려나 걱정을 이기고 평안하게 살아가는 것이 중요하기 때문입니다.";
+      document.getElementById("solving4").innerHTML = solve4;
+    }
+
+    function check5(){
+      var solve5 = "하나님의 뜻을 따라 성령님의 도우심으로 그리스도로 오신 예수님을 믿어 하나님의 자녀가 된 나";
+      document.getElementById("solving5").innerHTML = solve5;
+    }
+
+  </script>
+
+
+</body>
+</html>

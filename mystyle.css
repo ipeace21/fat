@@ -1,0 +1,238 @@
+/* mystyle.css */
+
+/* Letter */
+
+.BigLetter{
+  font-size: 60px;
+}
+
+.MiddleLetter{
+  font-size: 40px;
+}
+
+.BasicLetter{
+  font-size: 25px;
+}
+
+.SmallLetter{
+  font-size: 15px;
+}
+
+
+/* Div */
+
+.div1{
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.div2{
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
+/* Div_Round_Box */
+
+.div_Round80Box{
+  border-radius: 80px;
+  color: yellow;
+  background: #0066ff;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 800px;
+  padding: 10px 20px 10px 20px;
+  height: 45px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div_Round25Box{
+  border-radius: 25px;
+  background: #73AD21;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  align-self: center;
+  max-width: 800px;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div_Round15Box{
+  border-radius: 15px;
+  background: #00bfff;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 800px;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 줄마다 P태그로 줄바꾸기를 하는 경우 */
+.div_Round10Box{
+  border-radius: 10px;
+  background: orange;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  max-width: 800px;
+  height: 80px;
+  line-height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* P태그를 사용하지 않는 경우 */
+.div_Round10Box2{
+  border-radius: 10px;
+  background: #d9b3ff;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 30px 20px 30px;
+  max-width: 800px;
+  height: 80px;
+  line-height: 150%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div_Round0Box{
+  border-radius: 0px;
+  background: #0099ff;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 800px;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* Indent */
+
+.Indent0{
+  padding-left: 0px;
+}
+
+.Indent1{
+  padding-left: 40px;
+}
+
+.Indent2{
+  padding-left: 80px;
+}
+
+.Indent3{
+  padding-left: 120px;
+}
+
+.Indent4{
+  padding-left: 160px;
+}
+
+.Indent5{
+  padding-left: 200px;
+}
+
+.Indent6{
+  padding-left: 240px;
+}
+
+.Indent7{
+  padding-left: 280px;
+}
+
+.Indent8{
+  padding-left: 320px;
+}
+
+.Indent9{
+  padding-left: 360px;
+}
+
+.Indent10{
+  padding-left: 400px;
+}
+
+
+
+/* Input */
+
+.Input1{
+  border-radius: 0px;
+  background: #85e0e0;
+  margin: auto;
+  padding: 0px 20px 5px 20px;
+  width: 800px;
+  height: 40px;
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Input1:focus{
+  outline: none;
+  background: #66d9ff;
+}
+
+.Input2{
+  border-radius: 10px;
+  background: #85e0e0;
+  margin: auto;
+  padding: 0px 20px 5px 20px;
+  width: 800px;
+  height: 40px;
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Input2:focus{
+  outline: none;
+  background: #66d9ff;
+}
+
+
+/* Text */
+
+.Text1{
+  border-radius: 0px;
+  background: #85e0e0;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
+  width: 800px;
+  height: 200px;
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Text1:focus{
+  outline: none;
+  background: #66d9ff;
+}
+
+
+
+/* Button */
+
+.Button1{
+  border-radius: 40px;
+  border: none;
+  background: #008ae6;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
+  width: 200px;
+  height: 45px;
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Button1:hover{
+  outline: none;
+  background: #99ddff;
+}
+.Button1:focus{
+  outline: none;
+  background: #66d9ff;
+}
