@@ -158,6 +158,39 @@
   background: #d5b090;
 }
 
+.Button_round40_Prayer{
+  border-radius: 40px;
+  border: none;
+  background: #d5b090;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
+  width: 350px;
+  height: 45px;
+  font-size: 25px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.Button_round40F{
+  border-radius: 40px;
+  border: none;
+  background: #f8f1ed;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
+  width: 250px;
+  height: 45px;
+  font-size: 20px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.Button_round40F:hover{
+  outline: none;
+  background: #d5b090;
+}
+.Button_round40F:focus{
+  outline: none;
+  background: #d5b090;
+}
 
 
 /* Indent */
