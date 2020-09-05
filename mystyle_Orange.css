@@ -62,7 +62,7 @@
 
 .Input_rect{
   border-radius: 0px;
-  background: #ffe7b3;
+  background: white;
   margin: auto;
   padding: 0px 20px 5px 20px;
   width: 800px;
@@ -155,7 +155,7 @@
 }
 .Button_round40:focus{
   outline: none;
-  background: ##ffdf99;
+  background: #ffdf99;
 }
 
 

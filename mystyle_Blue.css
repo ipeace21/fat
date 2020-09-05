@@ -1,6 +1,6 @@
-/* mystyle_BGreen.css */
+/* mystyle_Blue.css */
 
-/* Color Style : BlueGreen */
+/* Color Style : Blue */
 
 /* Div */
 
@@ -17,7 +17,7 @@
 /* 제목 상자 */
 .div_Round10Box_title{
   border-radius: 10px;
-  background: #8cd9b3;
+  background: #b3d9ff;
   margin: auto;
   margin-top: 20px;
   padding: 10px 30px 10px 30px;
@@ -29,10 +29,10 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-/* (본문 들여쓰기)줄마다 P태그로 줄바꾸기를 하는 경우 */
+/* (본문 들여쓰기) 줄마다 P태그로 줄바꾸기를 하는 경우 */
 .div_Round10Box_text{
   border-radius: 10px;
-  background: #d8f3e5;
+  background: #cce6ff;
   margin: auto;
   margin-top: 20px;
   padding: 10px 30px 10px 30px;
@@ -42,11 +42,11 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-/* P태그를 사용하지 않는 경우 */
+/* (풀이) P태그를 사용하지 않는 경우 */
 .div_Round10Box_solve{
   border: 1px solid black;
   border-radius: 10px;
-  background: #ebf9f2;
+  background: #e6f3ff;
   margin: auto;
   margin-top: 20px;
   padding: 20px 30px 20px 30px;
@@ -72,7 +72,7 @@
 }
 .Input_rect:focus{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 
 .Input_round10{
@@ -87,7 +87,7 @@
 }
 .Input_round10:focus{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 
 
@@ -109,7 +109,7 @@
 }
 .Text_round10:focus{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 
 
@@ -119,7 +119,7 @@
 .Button_round40H{
   border-radius: 40px;
   border: none;
-  background: #c6ecd9;
+  background: #e6f3ff;
   margin: auto;
   margin-top: 20px;
   padding: 5px 20px 5px 20px;
@@ -130,17 +130,17 @@
 }
 .Button_round40H:hover{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 .Button_round40H:focus{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 
 .Button_round40{
   border-radius: 40px;
   border: none;
-  background: #c6ecd9;
+  background: #e6f3ff;
   margin: auto;
   margin-top: 20px;
   padding: 5px 20px 5px 20px;
@@ -151,11 +151,11 @@
 }
 .Button_round40:hover{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 .Button_round40:focus{
   outline: none;
-  background: #8cd9b3;
+  background: #b3daff;
 }
 
 
