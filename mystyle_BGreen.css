@@ -137,6 +137,29 @@
   background: #8cd9b3;
 }
 
+.Button_round0{
+  border-radius: 0px;
+  border: none;
+  background: #8cd9b3;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
+  width: 380px;
+  height: 45px;
+  font-size: 25px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.Button_round0:hover{
+  outline: none;
+  background: #2d8659;
+  color: white;
+}
+.Button_round0:focus{
+  outline: none;
+  background: #2d8659;
+  color: white;
+}
+
 .Button_round40{
   border-radius: 40px;
   border: none;
