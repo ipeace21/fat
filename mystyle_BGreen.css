@@ -132,6 +132,9 @@
   outline: none;
   background: #8cd9b3;
 }
+.Button_round40H:focus{
+  outline: none;
+}
 
 
 .Button_round0{
@@ -151,6 +154,9 @@
   background: #2d8659;
   color: white;
 }
+.Button_round0:focus{
+  outline: none;
+}
 
 
 .Button_round40{
@@ -168,6 +174,9 @@
 .Button_round40:hover{
   outline: none;
   background: #8cd9b3;
+}
+.Button_round40:focus{
+  outline: none;
 }
 
 
@@ -199,6 +208,9 @@
 .Button_round40F:hover{
   outline: none;
   background: #8cd9b3;
+}
+.Button_round40F:focus{
+  outline: none;
 }
 
 
