@@ -42,6 +42,19 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
+/* (본문) p태그를 사용하지 않는 경우 */
+.div_Round10Box_text2{
+  border-radius: 10px;
+  background: #ffeecc;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  max-width: 800px;
+  height: 80px;
+  line-height: 250%;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
 /* (풀이) P태그를 사용하지 않는 경우 */
 .div_Round10Box_solve{
   border: 1px solid black;
