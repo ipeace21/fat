@@ -29,7 +29,7 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-/* (본문 들여쓰기)줄마다 P태그로 줄바꾸기를 하는 경우 */
+/* (본문 들여쓰기) 줄마다 P태그로 줄바꾸기를 하는 경우 */
 .div_Round10Box_text{
   border-radius: 10px;
   background: #d8f3e5;
@@ -42,7 +42,7 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-/* P태그를 사용하지 않는 경우 */
+/* (풀이) P태그를 사용하지 않는 경우 */
 .div_Round10Box_solve{
   border: 1px solid black;
   border-radius: 10px;
@@ -132,10 +132,7 @@
   outline: none;
   background: #8cd9b3;
 }
-.Button_round40H:focus{
-  outline: none;
-  background: #8cd9b3;
-}
+
 
 .Button_round0{
   border-radius: 0px;
@@ -154,11 +151,7 @@
   background: #2d8659;
   color: white;
 }
-.Button_round0:focus{
-  outline: none;
-  background: #2d8659;
-  color: white;
-}
+
 
 .Button_round40{
   border-radius: 40px;
@@ -176,10 +169,7 @@
   outline: none;
   background: #8cd9b3;
 }
-.Button_round40:focus{
-  outline: none;
-  background: #8cd9b3;
-}
+
 
 .Button_round40_Prayer{
   border-radius: 40px;
@@ -210,10 +200,7 @@
   outline: none;
   background: #8cd9b3;
 }
-.Button_round40F:focus{
-  outline: none;
-  background: #8cd9b3;
-}
+
 
 
 
