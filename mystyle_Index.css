@@ -132,7 +132,9 @@
   outline: none;
   background: #e0b3ff;
 }
-
+.Button_round40H:focus{
+  outline: none;
+}
 
 .Button_round40{
   border-radius: 40px;
@@ -150,7 +152,9 @@
   outline: none;
   background: #e0b3ff;
 }
-
+.Button_round40:focus{
+  outline: none;
+}
 
 
 
