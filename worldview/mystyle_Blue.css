@@ -32,7 +32,7 @@
 /* (본문 들여쓰기) 줄마다 P태그로 줄바꾸기를 하는 경우 */
 .div_Round10Box_text{
   border-radius: 10px;
-  background: #cce6ff;
+  background: #e6f5ff;
   margin: auto;
   margin-top: 20px;
   padding: 10px 30px 10px 30px;
@@ -45,7 +45,7 @@
 /* (본문) p태그를 사용하지 않는 경우 */
 .div_Round10Box_text2{
   border-radius: 10px;
-  background: #ffeecc;
+  background: #e6f5ff;
   margin: auto;
   margin-top: 20px;
   padding: 10px 30px 10px 30px;
