@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title>진리탐구학습</title>
+
+    <link rel="stylesheet" type="text/css" href="mystyle_Brown.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean" rel="stylesheet">
+
+
+  <style>
+      body {
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+      h1 {
+        color: #3bab75;
+      }
+      p {
+        font-size: 25px;
+      }
+      b {
+        color: #000099;
+      }
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+  <div class="div_center">
+    <button class="Button_round40H" onclick="document.location='../index.html'">진리탐구학습</button>
+    <p><b>F</b>inding and <b>A</b>pplying <b>T</b>ruth - <b>교과 탐구</b></p>
+
+    <p>다음 글을 읽고 물음에 답한 후에, 확인 버튼을 클릭하여 풀이를 참고하세요.</p>
+  </div>
+
+
+
+  <div class="div_Round10Box_title">복음적 관점으로 도덕 교과의 기초 이해하기</div>
+
+
+
+  <div class="div_Round10Box_text2" style="height:390px;"> <!-- height = 40 * line + 30 -->
+    <p style="text-align:justify;">
+       도덕 교과에서 그리스도인은 가치 판단의 기준에 대한 정확한 이해가 있어야 합니다.
+       즉 무엇이 가치 있고 가치 없는지를 어떻게 판단할 것인가를 결정할 수 있는 기준을 정확하게 가지는 것이 중요합니다.
+       세상 모든 것의 가치는 하나님께서 가치 있는 것으로 보느냐 아니냐에 달려 있습니다.
+       즉 하나님의 절대 주권과 절대 선에 가치 판단의 기준이 있습니다.</p>
+    <p style="text-align:justify;">
+       가치 중에서 가장 핵심이 되는 선악을 판단할 때도 마찬가지입니다.
+       하나님 편에 서면 선이고, 하나님 반대편에 서면 악이라는 결론을 가져야 합니다.
+       도덕 교과에 있어서 그리스도인은 이것에 대한 확신이 있어야 합니다.</p>
+  </div>
+
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[1] 도덕 교과에서는 무엇에 대한 정확한 이해가 있어야 합니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check1();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving1" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[2] 세상 모든 것의 가치는 무엇에 달려 있습니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check2();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving2" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[3] 가치 판단의 최종적인 기준은 무엇입니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check3();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving3" class="div_Round10Box_solve" style="height: 35px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[4] 어떤 경우에 선이 되고, 어떤 경우에 악이 됩니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check4();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving4" class="div_Round10Box_solve" style="height: 35px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[5] 내가 하는 말이나 행동은 어떤 경우에 선이 될 수 있을까요?</p>
+      </td></tr>
+      <tr><td>
+          <textarea class="Text_round10"></textarea>
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check5();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving5" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: left;"></div>
+                                                      <!-- height : 1=35, 2=75, 3~=30*line+30 -->
+  </div>
+
+
+
+  <br><br>
+  <div class="div_center">
+    <button type="button" class="Button_round40_Prayer" onclick="">기도문</button>
+  </div>
+
+  <div class="div_Round10Box_text" style="height:230px;"> <!-- height = 40 * line + 30 -->
+    <p>전능하신 하나님,</p>
+    <p>하나님이 가치를 판단하는 최고의 기준임을 알고</p>
+    <p>하나님 편에 설 수 있는 말과 행동을 할 수 있도록</p>
+    <p>나의 마음과 생각과 삶을 지켜주세요.</p>
+    <p>예수님의 이름으로 기도합니다. 아멘.</p>
+  </div>
+
+
+
+  <br><br>
+  <div class="div_center">
+    <table align="center"><tr>
+      <td><button class="Button_round40F" onclick="">[ 처음 페이지 ]</button></td>
+      <td><button class="Button_round40F" onclick="document.location='fat_Subject_Basic000.html'">[ Main Page ]</button></td>
+      <td><button class="Button_round40F" onclick="document.location='fat_Subject_Basic002.html'"><b>[ 다음 페이지 ]</b></button></td>
+    </tr></table>
+  </div>
+
+
+  <div class="div_center">
+    <table align="center"><tr>
+      <td><button class="Button_round40F" onclick="document.location='../index.html'">진리탐구학습</button></td>
+      <td><button class="Button_round40F" onclick="document.location='fat_Subject.html'">교과 탐구</button></td>
+    </tr></table>
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    * provided by ipeace21, for the Kingdom of God, since 2020 *
+  </div>
+  <br><br>
+
+
+
+  <script>
+
+/* ---------------- 1 ------------------------------------------------------------ 2 ------------------------------------------------------------ 3 ------------------------------------------------------------ 4 ------------------------------ */
+
+    function check1(){
+      var solve1 = "도덕 교과에서 그리스도인은 가치 판단의 기준에 대한 정확한 이해가 있어야 합니다.";
+      document.getElementById("solving1").innerHTML = solve1;
+    }
+
+    function check2(){
+      var solve2 = "세상 모든 것의 가치는 하나님께서 가치 있는 것으로 보느냐 아니냐에 달려 있습니다.";
+      document.getElementById("solving2").innerHTML = solve2;
+    }
+
+    function check3(){
+      var solve3 = "가치 판단의 최종적인 기준은 하나님의 절대 주권과 절대 선에 있습니다.";
+      document.getElementById("solving3").innerHTML = solve3;
+    }
+
+    function check4(){
+      var solve4 = "하나님 편에 서면 선이고, 하나님 반대편에 서면 악입니다.";
+      document.getElementById("solving4").innerHTML = solve4;
+    }
+
+    function check5(){
+      var solve5 = "(예) 하나님의 영광을 위해 하나님의 뜻에 맞게 말하고 행동하면 선이 될 수 있습니다.";
+      document.getElementById("solving5").innerHTML = solve5;
+    }
+
+  </script>
+
+
+</body>
+</html>
