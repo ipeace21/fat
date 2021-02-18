@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title>진리탐구학습</title>
+
+    <link rel="stylesheet" type="text/css" href="mystyle_BGreen.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean" rel="stylesheet">
+
+
+  <style>
+      body {
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+      h1 {
+        color: #3bab75;
+      }
+      p {
+        font-size: 25px;
+      }
+      b {
+        color: #000099;
+      }
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+  <div class="div_center">
+    <button class="Button_round40H" onclick="document.location='../index.html'">진리탐구학습</button>
+    <p><b>F</b>inding and <b>A</b>pplying <b>T</b>ruth - <b>성경 탐구</b></p>
+
+    <p>다음 글을 읽고 물음에 답한 후에, 확인 버튼을 클릭하여 풀이를 참고하세요.</p>
+  </div>
+
+
+
+  <div class="div_Round10Box_title">성경은 무엇인가?</div>
+
+
+
+  <div class="div_Round10Box_text2" style="height:290px;"> <!-- height = 40 * line + 30 -->
+    <p style="text-align:justify;">
+       처음 사람은 하나님께서 만드신 세상을 보면서 하나님을 충분히 느낄 수 있었습니다.
+       그러나 범죄 이후로 사람들의 눈이 어두워져서 세상 속에서 하나님을 느낄 수 있는 감각을 잃게 되었습니다.
+       그래서 하나님은, 사람들이 하나님을 깨달아 알 수 있도록 특별한 은혜를 베풀어 주셨는데, 그것이 바로 성경입니다.
+       성경을 통해서 하나님을 알고, 하나님의 뜻을 깨닫고, 하나님께서 하시는 일들을 이해하게 되는 것입니다.</p>
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[1] 처음 사람은 무엇을 보면서 하나님을 충분히 느낄 수 있었습니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check1();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving1" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: justify;"></div>
+                                                      <!-- height : 1=35, 2=75, 3=110, 4~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[2] 사람은 범죄한 이후로 어떤 감각을 잃게 되었습니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check2();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving2" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: justify;"></div>
+                                                      <!-- height : 1=35, 2=75, 3=110, 4~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[3] 하나님은 사람들이 하나님을 깨달아 알 수 있도록 어떤 은혜를 베풀어 주셨습니까?</p>
+      </td></tr>
+      <tr><td>
+          <input type="text" class="Input_round10" value="">
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check3();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving3" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: justify;"></div>
+                                                      <!-- height : 1=35, 2=75, 3=110, 4~=30*line+30 -->
+  </div>
+
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[4] 성경을 통해서 무엇을 이해할 수 있습니까?</p>
+      </td></tr>
+      <tr><td>
+          <textarea class="Text_round10"></textarea>
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check4();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving4" class="div_Round10Box_solve" style="height: 75px; font-size: 25px; text-align: justify;"></div>
+                                                      <!-- height : 1=35, 2=75, 3=110, 4~=30*line+30 -->
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table width="800px" align="center"><tr>
+      <td>
+        <p align="left" style="line-height: 150%;">[5] 성경을 무엇이라고 표현해 볼 수 있을까요?</p>
+      </td></tr>
+      <tr><td>
+          <textarea class="Text_round10"></textarea>
+      </td>
+      </tr></table>
+  </div>
+  <div class="div_center">
+    <button type="button" class="Button_round40" onclick="check5();">풀이 확인</button>
+  </div>
+  <div class="div_center">
+    <div id="solving5" class="div_Round10Box_solve" style="height: 35px; font-size: 25px; text-align: justify;"></div>
+                                                      <!-- height : 1=35, 2=75, 3=110, 4~=30*line+30 -->
+  </div>
+
+
+
+  <br><br>
+  <div class="div_center">
+    <button type="button" class="Button_round40_Prayer" onclick="">기도문</button>
+  </div>
+
+  <div class="div_Round10Box_text" style="height:230px;"> <!-- height = 40 * line + 30 -->
+    <p>하나님 아버지,</p>
+    <p>죄를 지음으로 하나님을 느낄 수 있는 감각을 잃었지만</p>
+    <p>크신 은혜를 베풀어 주셔서</p>
+    <p>하나님을 깨달아 알 수 있는 성경을 주심에 감사드립니다.</p>
+    <p>예수님의 이름으로 기도합니다. 아멘.</p>
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    <table align="center"><tr>
+      <td><button class="Button_round40F" onclick="">[ 처음 페이지 ]</button></td>
+      <td><button class="Button_round40F" onclick="document.location='fat_Bible000.html'">[ 성경 기초 Main ]</button></td>
+      <td><button class="Button_round40F" onclick="document.location='fat_Bible002.html'"><b>[ 다음 페이지 ]</b></button></td>
+    </tr></table>
+  </div>
+
+  <div class="div_center">
+    <table align="center"><tr>
+      <td><button class="Button_round40F" onclick="document.location='../index.html'">진리탐구학습</button></td>
+      <td><button class="Button_round40F" onclick="document.location='fat_Bible.html'">성경 탐구</button></td>
+    </tr></table>
+  </div>
+
+
+  <br><br>
+  <div class="div_center">
+    * provided by ipeace21, for the Kingdom of God, since 2020 *
+  </div>
+  <br><br>
+
+
+
+  <script>
+/* ---------------- 1 ------------------------------------------------------------------------- 2 ------------------------------------------------------------------------- 3 ------------------------------------------------------------------------- 4 ----------------------------------------- */
+    function check1(){
+      var solve1 = "처음 사람은 하나님께서 만드신 세상을 보면서 하나님을 충분히 느낄 수 있었습니다.";
+      document.getElementById("solving1").innerHTML = solve1;
+    }
+/* ---------------- 1 ------------------------------------------------------------------------- 2 ------------------------------------------------------------------------- 3 ------------------------------------------------------------------------- 4 ----------------------------------------- */
+    function check2(){
+      var solve2 = "범죄 이후로 사람들은 눈이 어두워져서 세상 속에서 하나님을 느낄 수 있는 감각을 잃게 되었습니다.";
+      document.getElementById("solving2").innerHTML = solve2;
+    }
+/* ---------------- 1 ------------------------------------------------------------------------- 2 ------------------------------------------------------------------------- 3 ------------------------------------------------------------------------- 4 ----------------------------------------- */
+    function check3(){
+      var solve3 = "하나님은, 사람들이 하나님을 깨달아 알 수 있도록 특별한 은혜를 베풀어 주셨는데, 그것이 바로 성경입니다.";
+      document.getElementById("solving3").innerHTML = solve3;
+    }
+/* ---------------- 1 ------------------------------------------------------------------------- 2 ------------------------------------------------------------------------- 3 ------------------------------------------------------------------------- 4 ----------------------------------------- */
+    function check4(){
+      var solve4 = "성경을 통해서 하나님을 알고, 하나님의 뜻을 깨닫고, 하나님께서 하시는 일들을 이해할 수 있습니다.";
+      document.getElementById("solving4").innerHTML = solve4;
+    }
+/* ---------------- 1 ------------------------------------------------------------------------- 2 ------------------------------------------------------------------------- 3 ------------------------------------------------------------------------- 4 ----------------------------------------- */
+    function check5(){
+      var solve5 = "(예) 성경은 하나님께서 주신 특별한 선물";
+      document.getElementById("solving5").innerHTML = solve5;
+    }
+
+  </script>
+
+
+</body>
+</html>
