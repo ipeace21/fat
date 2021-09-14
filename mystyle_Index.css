@@ -158,15 +158,15 @@
 
 
 .Button_round500{
-  border-radius: 40px;
+  border-radius: 15px;
   border: none;
   background: #f5e6ff;
   margin: auto;
   margin-top: 20px;
   padding: 5px 20px 5px 20px;
   width: 500px;
-  height: 50px;
-  font-size: 30px;
+  height: 40px;
+  font-size: 25px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .Button_round500:hover{
